@@ -1,0 +1,60 @@
+.heading{
+font-size:23px;
+width:100%;
+margin:0px;
+}
+
+.note {
+    color: black;
+    font-size: 15px;;
+}
+
+body{
+    background-size: cover;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_speed_img, .div_volume_img {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed, #volume {
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume {
+    float: right;
+}
+
+canvas {
+    margin: 50px;
+    border-radius: 30px;
+    border: black solid;
+    animation-name: canva;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.rodape {
+    background-color: black;
+    width: 100%;
+    color: purple;
+    text-align: center;
+    bottom: 0px;
+    position: fixed;
+    padding: 10px;
+}
+
+@keyframes canva {
+    from{
+        box-shadow: 10px 10px 45px purple;
+    }
+    
+    to{
+        box-shadow: 10px 10px 45px blue;    }
+}
